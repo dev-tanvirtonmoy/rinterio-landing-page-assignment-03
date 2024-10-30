@@ -46,13 +46,13 @@
     </script>
   </head>
   <body class="font-manrope">
-    <header class="bg-gradient-to-t from-white to-yellow-300">
+    <header class="bg-gradient-to-t from-white to-[#f8f8f8] py-8 md:py-10">
       <!-- Navbar start from here -->
       <nav class="container mx-auto">
         <div class="navbar">
           <div class="navbar-start">
-            <div class="dropdown flex justify-end">
-              <div tabindex="0" role="button" class="btn btn-ghost md:hidden">
+            <div class="dropdown">
+              <div tabindex="0" role="button" class="btn btn-ghost flex-end md:hidden">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   class="h-5 w-5"
@@ -90,7 +90,7 @@
               </ul>
             </div>
             <a
-              class="btn btn-ghost text-[28px] lg:text-[32px] font-bold capitalize text-neutral-800 space-x-2"
+              class="btn btn-ghost text-2xl lg:text-3xl font-bold capitalize text-neutral-800 space-x-2"
             >
               <div
                 class="-rotate-90 w-8 h-8 rounded-full bg-lime-300 flex items-center justify-center"
@@ -199,8 +199,39 @@
           </div>
         </div>
       </nav>
+
+      <!-- Hero section start from here -->
+      <section>
+        <div class="hero">
+          <div class="hero-content text-center">
+            <div class="">
+              <div class="flex justify-center mx-auto">
+                <img class="" src="./assets/banner.png" alt="">
+              </div>
+              <h1 class="my-6 text-2xl md:text-4xl lg:text-6xl font-extrabold w-9/12 md:w-10/12 mx-auto">A barn house of this design has a striking appearance</h1>
+              <p class="md:w-8/12 lg:w-9/12 mx-auto">
+                The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents, and large windows that flood the space with natural light.
+              </p>
+              <div class="mt-5 md:mt-8">
+                <button class="justify-center w-full md:w-auto md:px-6 py-3 flex items-center capitalize bg-[#D4F7AE] border border-[#ABEF5F] rounded-full space-x-3 mx-auto text-xl font-bold text-[#212121]"><span>view details</span>
+                  <div
+                  class="w-8 h-8 rounded-full bg-lime-300 flex items-center justify-center"
+                >
+                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14" fill="none">
+                  <path d="M12.0016 1.74121L0.997989 12.7375" stroke="#1C1C1C" stroke-width="1.5" stroke-linecap="round"/>
+                  <path d="M6.00191 0.87079C6.00191 0.87079 11.6356 0.397774 12.4903 1.25297C13.3449 2.10817 12.868 7.74156 12.868 7.74156" stroke="#1C1C1C" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+                  </div>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </header>
-    <main></main>
+    <main class="bg-[#f4f4f4]">
+      <h1>testing...</h1>
+    </main>
     <footer></footer>
   </body>
 </html>
