@@ -1,0 +1,9 @@
+body, html {
+    scroll-behavior: smooth;
+}
+.input-bg {
+    background: url(./assets/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
